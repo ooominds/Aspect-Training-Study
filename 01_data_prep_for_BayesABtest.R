@@ -3,7 +3,7 @@ rm(list=ls())
 
 load('daysdat.rda')
 
-# score as proportions; by participant, day, and grammaticality
+# score as counts; by participant, day, and grammaticality
 daysdat$Sums <- with(daysdat, ave(x=Response, Group, isSentenceCorrect, InterventionDay,
     FUN=function(x){sum(x)}))
 daysdat$Counts <- with(daysdat, ave(x=Response, Group, isSentenceCorrect, InterventionDay,
