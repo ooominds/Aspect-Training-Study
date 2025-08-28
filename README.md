@@ -11,8 +11,8 @@ distributions. *Language Learning* (forthcoming).
 
 - `01_data_prep_for_BayesABtest.R`: Prepares the data for comparisons
 of total success rates between the two treatment groups, per training
-day and grammaticality. The counts should be input manually in the JASP
-interface.
+day and grammaticality. The counts are expected to be inserted manually
+in the JASP interface for the Bayesian A/B Test.
 - `02_posttest_analyses.R`: Analyses of post-test results by modelling 
 individual responses (correct/incorrect) with Generalised Linear 
 Mixed-Effects Models for binary outcomes, and by using Log-Linear 
